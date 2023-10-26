@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="stylesheet" href="https://use.typekit.net/zrg5jyu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b74c22d92d.js" crossorigin="anonymous"></script>
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="slideshow-container">
+        <h1 class="napoles-turismo">¿Estas listo para viajar?
+        </h1>
+        <img src="assets/formularioinicio.jpg" alt="plaza del plebiscito vista desde arriba"/>
+    </div>
+    <div class="indice">
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home"></i>Home </a></li>
+            <li> <a href="turismo.html"><i class="fas fa-map-marked-alt"></i>Turismo</a></li>
+            <li><a href="info.html"><i class="fas fa-info"></i>Información</a></li>
+            <li><a href="formulario.html"><i class="fas fa-edit"></i> <span>Contactános</span></a></li>
+        </ul>
+    </div>
+
+<main>
+    <div class="caja-negra-formulario">
+        <h2>¡Reserva ahora!</h2> 
+    </div>
+    <form class="conteiner-formulario"  target="_blank"  action="gracias.html" method="get" >
+            <input type="text" name="nombre" placeholder= "Nombres" required/>
+
+            <input type="text" name="apellido" placeholder="Apellidos" required/>
+
+            <div class="radio">
+                <p>Sexo</p>
+                <label>Masculino <input type="radio" name="valor" value="M"/></label>
+                <label>Femenino <input type="radio" name="valor" value="F"/></label>
+                <label>Otro <input type="radio" name="valor" value="O"/></label>
+            </div>
+    
+            <input type="tel" name="telefono" placeholder="Teléfono" required />
+    
+            <input type="email" name="correo" placeholder="Correo electrónico" required />
+            <div class="reserva">
+            <p>¿Que desea reservar?</p>
+                <select name="Asunto" required>
+                    <option value="">-</option>
+                    <option value="city">City Tour</option>
+                    <option value="tours">Estadía</option>
+                    <option value="info">Pompeya-Monte Vesubio</option>
+                    <option value="otros">Costa de Amalfi</option>
+                </select>
+            </div>
+
+            <div class="calendario">
+                <label> Fecha de la reserva <input type="date" required/> </label>
+            </div>
+            <div class="mayores">
+            <label>Cantidad de pasajeros mayores:
+                <input type="number">
+            </label>
+            </div>
+
+            <div>
+            <label class="menores">Cantidad de pasajeros menores:
+                <input type="number">
+            </label>
+            </div>
+
+            <div class="imagen">
+            <label>Subir fotos de primer pagina del pasaporte (de todos los integrantes, en un solo archivo)
+                <input type="file"/>
+            </label>
+            </div>
+           
+
+           <div class="info">
+               <p>Quiero recibir información mensual sobre:</p>
+                <label>Tours
+                    <input type="checkbox" name="tour" value="tour"/>
+                </label>
+                <label>Eventos
+                    <input type="checkbox" name="eventos" value="eventos"/>
+                </label>
+                <label>Gastronomía
+                    <input type="checkbox" name="gastronomia" value="gastro"/>
+                </label>
+                <label>Hotelería
+                    <input type="checkbox" name="hoteleria" value="hoteles"/>
+                </label>
+                <label>Deportes
+                    <input type="checkbox" name="deportes" value="deporte"/>
+                </label>
+           </div>
+            <div class="radio">
+                <p>¿Como califica la información de esta pagina?</p>
+                <label>Mala <input type="radio" name="valor" value="M"/></label>
+                <label>Buena <input type="radio" name="valor" value="B"/></label>
+                <label>Muy buena <input type="radio" name="valor" value="MB"/></label>
+            </div>
+            
+            <div class="enviar">
+            <input class="submit" type="submit" id="myBtn">
+            </div>
+        </form>
+</main>    
+        <footer>
+            <ul>
+                <li><a href="https://www.davinci.edu.ar/" target="_blank"><img src="assets/DaVinci-Logo.png" alt="DaVinci-Logo"/></a> </li>
+                <li class="alumno">Alumno: Pablo Donato</li>
+                <li class="profe">Profesora: Mabel García</li>
+                <li class="materia">Materia: Maquetado y Desarrollo Web</li>
+                <li class="tp">Trabajo práctico 1er cuatrimestre DaVinci</li>
+            </ul>   
+        </footer>        
+</body>
+</html>

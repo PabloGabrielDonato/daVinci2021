@@ -1,0 +1,24 @@
+5.
+let lado1 = 0;
+let lado2 = 0;
+let lado3 = 0;
+let lado4 = 0;
+let perimetro = 0;
+let area = 0;
+
+
+//El usuario ingresa los 3 lados
+lado1y3 = parseInt(prompt("Ingrese lados verticales"));
+lado2y4 = parseInt(prompt("Ingrese lados horizontales"));
+
+
+
+//Calcular el perimetro
+perimetro = lado1y3*2 + lado2y4*2;
+
+//calcular area
+area = lado1y3*lado2y4
+
+//Informar el perimetro
+alert("El perímetro es: " + perimetro);
+alert("El área es: " + area)

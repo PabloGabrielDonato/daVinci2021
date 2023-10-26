@@ -1,0 +1,415 @@
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 30px;
+    margin: 0;
+    width: 100%;
+}
+
+ 
+/* Indice */
+.indice ul{
+    list-style: none;
+    position: absolute;
+    font-size: 40px;
+
+}
+.indice li{
+    float: left;
+    padding: 20px;
+    margin-top: -30px;
+}
+
+.indice ul :hover{
+    color: rgb(9, 207, 207);
+    transition: .5s;
+}
+.indice a{
+    text-decoration: none;
+    color: black
+}
+.indice span{
+    color: blueviolet;
+}
+
+/* napoles cultura */
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+
+}
+
+.slideshow-container img {
+    top: 0;
+    width: 100%;
+    opacity: 80%;
+    height: 32rem;
+}
+
+.slideshow-container h1 {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    color: rgb(9, 206, 206);
+    margin-top: -250px;
+    left: 25%;
+    font-family: permanent-marker, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    text-shadow: 3px 3px 10px black;
+    text-decoration: none;
+    z-index: 10;
+}
+
+
+
+/* Caja negra informacion */
+
+.informacion{
+    position: absolute;
+    width: 50%;
+    height: 10rem;
+    background-color:black ;
+    margin-top: -7%;
+}
+
+/* texto caja negra informacion */
+
+.informacion p{
+    color: white;
+    font-size: 60px;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+/* fotos informacion caja negra */
+
+.imagenes-caja-negra{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    row-gap: 7px;
+    column-gap: 10px;
+    width: 60%;
+    margin-left: 15%;
+    margin-top: 17%;
+}
+
+/* texto de imagenes caja negra info */
+
+.imagenes-caja-negra p{
+    position: absolute;
+    margin: 0;
+    color: white;
+    font-size: 40px;
+    margin-left: 2%;
+    margin-top: 1%;
+    text-shadow: 3px 3px 5px black;
+}
+
+
+
+.info-napoles{
+    margin-top: 5%;
+    margin-left: 1%;
+    font-size: 30px;
+}
+
+.info-napoles h2{
+    margin: 0;
+    margin-top: 3%;
+    color: rgb(9, 206, 206);
+    border-top: 2px solid rgb(216, 214, 214);
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.info-napoles i{
+    text-decoration: none;
+    font-size: 40px;
+    color: grey;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+
+
+/* mas info */
+.mas-info{
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 7%;
+}
+.mas-info p{
+    margin: 0;
+    font-size: 70px;
+}
+.mas-info a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 3px 15px;
+    border-radius: 6px;
+}
+
+
+
+
+
+
+/* footer */
+footer{
+    background-color:rgb(63, 61, 61) ;
+    height: 175px;
+    margin-top: 70px;
+}
+.alumno, .profe{
+    position: absolute;
+    margin-left: 25%;
+    font-size: 40px;
+    color: rgb(9, 207, 207);
+}
+.alumno{
+    margin-top: -120px;
+}
+.profe{
+    margin-top: -40px;
+}
+.materia, .tp{
+    margin-left: 55%;
+    position: absolute;
+    font-size: 40px;
+    color: rgb(9, 207, 207);
+}
+.materia{
+    margin-top: -120px;
+}
+.tp{
+    margin-top: -40px;
+}
+
+footer img{
+    position: relative;
+    margin-top: 60px;
+    width: 15%;
+    height: 45%;
+}
+
+
+
+
+
+
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width:480px){
+    body{
+        width: 480px;
+        font-size: 18px;
+    }
+    /* napoles cultura */
+
+    .slideshow-container {
+        max-width: 480px;
+    }
+
+    .slideshow-container img {
+        top: 0;
+        width: 480px;
+        opacity: 80%;
+        height: 16rem;
+    }
+
+    .slideshow-container h1 {
+        left: 25%;
+        font-size: 30px;
+
+        margin-top: -120px;
+    }
+    .info-napoles img{
+        width: 480px;
+    }
+    /* Indice */
+    .indice ul{
+        font-size: 20px;
+        width: 400px;
+        }
+        .indice li{
+        padding: 8px;
+        }
+    .main{
+        width: 480px;
+    }
+        
+    /*mas info  */
+    .mas-info{
+        display: none;
+    }
+
+        /* footer */
+        footer{
+            background-color:rgb(63, 61, 61) ;
+            height: 140px;
+            margin-top: 70px;
+            width: 480px;
+        }
+        .alumno, .profe{
+            margin-left: 18%;
+            font-size: 15px;
+        }
+        .alumno{
+            margin-top: -60px;
+        }
+        .profe{
+            margin-top: -20px;
+        }
+        .materia, .tp{
+            margin-left: 45%;
+            position: absolute;
+            font-size: 15px;
+            color: rgb(9, 207, 207);
+            width: 45%;
+        }
+        .materia{
+            margin-top: -60px;
+        }
+        .tp{
+            margin-top: -20px;
+        }
+    
+        footer img{
+            position: relative;
+            margin-top: 60px;
+            width: 15%;
+            height: 45%;
+        }
+
+    /* Caja negra informacion */
+
+    .informacion{
+        width: 480px;
+        height: 4rem;
+    }
+    /* fotos informacion caja negra */
+
+    .imagenes-caja-negra div{
+        margin-top: 4%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* texto caja negra informacion */
+
+    .informacion p{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    /* texto de imagenes caja negra info */
+
+    .imagenes-caja-negra p{
+        position: absolute;
+        margin: 0;
+        color: white;
+        font-size: 20px;
+        margin-left: 2%;
+        margin-top: 1%;
+        text-shadow: 5px 5px 5px black;
+    }   
+    
+    /* como moverse en la ciudad de napoles */
+
+    .info-napoles{
+        font-size: 20px;
+    }
+    
+    .info-napoles i{
+
+        font-size: 30px;
+
+    }
+    
+}
+@media screen and (max-width:396px){
+   
+    /* Caja negra informacion */
+
+    .informacion{
+        width: 520px;
+        height: 4rem;
+    }
+    .slideshow-container img {
+        width: 520px;
+    }
+    /* Indice */
+   .indice ul{
+    font-size: 19px;
+    width: 480px;
+    }
+    .indice li{
+    padding: 4px;
+    }
+    
+    /* footer */
+    footer{
+        width: 520px;
+    }
+    .alumno, .profe{
+        margin-left: 25%;
+        font-size: 15px;
+    }
+    .alumno{
+        margin-top: 10px;
+    }
+    .profe{
+        margin-top: -20px;
+    }
+    .materia, .tp{
+        margin-left: 65%;
+        position: absolute;
+        font-size: 15px;
+        color: rgb(9, 207, 207);
+        width: 45%;
+    }
+    .materia{
+        margin-top: -20px;
+    }
+    .tp{
+        margin-top: 10px;
+    }
+
+    footer img{
+        position: relative;
+        margin-top: 60px;
+        width: 15%;
+        height: 45%;
+    }    
+}
+
+@media screen and (max-width:337px){
+    .alumno, .profe{
+        margin-left: 35%;
+        font-size: 15px;
+    }
+    .materia, .tp{
+        margin-left: 85%;
+        position: absolute;
+        font-size: 15px;
+        color: rgb(9, 207, 207);
+        width: 45%;
+    }
+}

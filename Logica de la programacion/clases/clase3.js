@@ -1,0 +1,19 @@
+let miPrimeraVariable = 1;
+ Red Green Blue
+ #FF  00    00
+ RGB
+ 0123456789ABCDEF
+
+ C EN BASE 16
+ 12 EN BASE 10
+
+ 10 EN BASE 10
+ A
+
+ #00 00 00;
+
+#BASE 8
+01234567 10 11 12 13 14 15 16 17 20 21 22
+
+#BASE 10
+01234567  8  9 10 11 12 13 14 15 16 17 18

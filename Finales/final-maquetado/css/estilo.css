@@ -1,0 +1,701 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 30px;
+  margin: 0;
+  /* width: 100%; */
+}
+/* CONTENEDOR DE FOTOS HOME */
+.slideshow-container {
+  position: relative;
+  width: 100%;
+}
+
+.slideshow-container img {
+  top: 0;
+  width: 100%;
+  opacity: 80%;
+  width: 100%;
+  height: 150%;
+  opacity: 80%;
+}
+/* BOTONES FLECHITA */
+.slideshow-container a {
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0, 6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* formato flechitas */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.next:hover,
+.prev:hover {
+  background-color: rgb(7, 6, 6, 0.8);
+  cursor: pointer;
+}
+
+/* imagenes contenedor */
+img {
+  width: 100%;
+  opacity: 80%;
+}
+
+/* napoles celeste de fotos */
+
+div h1 {
+  position: absolute;
+  margin: 0;
+  font-family: permanent-marker, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  left: 35%;
+  font-size: 100px;
+  text-shadow: 3px 3px 10px black;
+  z-index: 10;
+  color: rgb(9, 207, 207);
+}
+.napoles-turismo {
+  margin-left: -11%;
+}
+
+/* CONOCE ITALIA */
+div h2 {
+  position: absolute;
+  margin: 10%;
+  left: 31%;
+  z-index: 1;
+  font-family: permanent-marker, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  text-shadow: 3px 3px 5px black;
+}
+div h2 .verde {
+  color: rgb(52, 221, 52);
+}
+div h2 .blanco {
+  color: white;
+}
+div h2 .rojo {
+  color: red;
+}
+/* adjetivos de fotos */
+.text {
+  position: absolute;
+  color: white;
+  font-size: 50px;
+  width: 100%;
+  padding: 30px 12px;
+  bottom: 0;
+  text-align: center;
+  font-family: permanent-marker, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background-color: rgb(15, 7, 7, 0.5);
+}
+/* Indice */
+.indice ul {
+  list-style: none;
+  position: absolute;
+  font-size: 40px;
+}
+.indice li {
+  float: left;
+  padding: 20px;
+  margin-top: -30px;
+}
+
+.indice ul :hover {
+  color: rgb(9, 207, 207);
+  transition: 0.5s;
+}
+.indice a {
+  text-decoration: none;
+  color: black;
+}
+.indice span {
+  color: blueviolet;
+}
+
+/* turismo abierto y seguro */
+.bienvenidos div p {
+  font-family: permanent-marker, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  color: rgb(226, 226, 226);
+  text-align: center;
+  margin: 0;
+  margin-top: 100px;
+}
+/* Napoles celeste palabra */
+.bienvenidos span {
+  font-size: 70px;
+  color: rgb(9, 207, 207);
+}
+
+/* Patrimonio mundial */
+.patrimonio,
+.tesoro-artistico {
+  font-family: permanent-marker, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  color: rgb(226, 226, 226);
+  text-align: center;
+}
+/* caja negra actividades para hacer/napoles visual/siguenos */
+.turismo,
+.napoles-visual,
+.siguenos,
+.caja-negra-formulario {
+  position: absolute;
+  width: 50%;
+  height: 10rem;
+  background-color: black;
+}
+.caja-negra-formulario {
+  margin-top: 5%;
+}
+.siguenos {
+  margin-top: 70px;
+}
+.napoles-visual {
+  margin-left: 49%;
+}
+
+/* texto caja negra turismo/ napoles visual/siguenos */
+.turismo p,
+.napoles-visual p,
+.siguenos p,
+.caja-negra-formulario p {
+  color: white;
+  font-size: 60px;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+/* SIGUENOS */
+
+.siguenos ul {
+  list-style: none;
+  margin-top: -4%;
+}
+.redes1 li {
+  text-decoration: none;
+  float: left;
+  font-size: 25px;
+  margin-left: 1%;
+}
+.siguenos a {
+  color: rgb(9, 207, 207);
+  text-shadow: 3px 3px 10px black;
+}
+.siguenos a:hover {
+  color: rgb(7, 165, 165);
+}
+
+/* footer */
+footer {
+  background-color: rgb(63, 61, 61);
+  height: 175px;
+  margin-top: 70px;
+}
+.alumno,
+.profe {
+  position: absolute;
+  margin-left: 25%;
+  font-size: 40px;
+  color: rgb(9, 207, 207);
+}
+.alumno {
+  margin-top: -120px;
+}
+.profe {
+  margin-top: -40px;
+}
+.materia,
+.tp {
+  margin-left: 55%;
+  position: absolute;
+  font-size: 40px;
+  color: rgb(9, 207, 207);
+}
+.materia {
+  margin-top: -120px;
+}
+.tp {
+  margin-top: -40px;
+}
+
+footer img {
+  position: relative;
+  margin-top: 60px;
+  width: 15%;
+  height: 45%;
+}
+
+/* fotos cosas para hacer*/
+
+.fotos-container img {
+  display: inline-flexbox;
+  position: relative;
+  margin: 0%;
+  margin-left: 20px;
+  margin-top: 110px;
+  width: 25%;
+}
+
+.fotos-container {
+  margin-left: 80px;
+}
+.fotos-container p {
+  display: block;
+  position: absolute;
+  color: white;
+  margin-top: 7%;
+  z-index: 1;
+  font-size: 50px;
+}
+
+.texto-turismo {
+  margin-left: 50px;
+}
+
+.texto-info {
+  margin-left: 29%;
+}
+
+.video-container iframe {
+  display: inline-flexbox;
+  position: relative;
+  margin-left: 20px;
+}
+.video-container {
+  margin-left: 39%;
+  margin-top: 12%;
+}
+.mas-info {
+  position: absolute;
+  margin-left: 50px;
+}
+.mas-info p {
+  margin: 0;
+  font-size: 70px;
+}
+.mas-info a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 3px 15px;
+  border-radius: 6px;
+}
+
+.escudo-napoles {
+  display: inline-block;
+  width: 10%;
+  height: 10%;
+  margin-left: 70%;
+  margin-top: 60px;
+}
+.comuna-napoles-texto {
+  position: absolute;
+  font-size: 25px;
+  margin-top: -2%;
+  margin-left: 8px;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 1280px) and (max-width: 1366px) {
+  /* SIGUENOS */
+
+  .siguenos ul {
+    list-style: none;
+    margin-top: -4%;
+  }
+  .redes1 li {
+    text-decoration: none;
+    float: left;
+    font-size: 24px;
+    margin-left: 1%;
+  }
+
+  .alumno,
+  .profe {
+    font-size: 35px;
+  }
+  .materia,
+  .tp {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 18px;
+  }
+  /* CONTENEDOR DE FOTOS HOME */
+  .slideshow-container {
+    position: relative;
+    width: 126.5%;
+  }
+  div h1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+  }
+  /* CONOCE ITALIA */
+  div h2 {
+    margin-left: 3%;
+    font-size: 25px;
+  }
+  /* adjetivos de fotos */
+  .text {
+    font-size: 30px;
+  }
+
+  /* Indice */
+  .indice ul {
+    font-size: 20px;
+    width: 100%;
+  }
+  .indice li {
+    padding: 8px;
+  }
+  /* turismo abierto y seguro */
+  .bienvenidos div p {
+    font-size: 35px;
+  }
+  /* Patrimonio mundial */
+  .patrimonio,
+  .tesoro-artistico {
+    font-size: 35px;
+  }
+  main {
+    width: 120%;
+  }
+
+  /* caja negra actividades para hacer/napoles visual/siguenos */
+  .turismo,
+  .siguenos,
+  .napoles-visual,
+  .caja-negra-formulario {
+    margin: 0;
+    width: 125%;
+    height: 5rem;
+  }
+  /* texto caja negra turismo/ napoles visual/siguenos */
+  .turismo p,
+  .napoles-visual p,
+  .siguenos p,
+  .caja-negra-formulario p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  /* fotos actividades para hacer*/
+
+  .fotos-container img {
+    margin-left: 10px;
+    margin-top: 70px;
+    width: 40%;
+  }
+
+  .fotos-container p {
+    margin-top: 13%;
+    font-size: 20px;
+    padding-left: 20%;
+  }
+
+  /*mas info  */
+  .mas-info {
+    margin-top: 170%;
+    position: absolute;
+    margin-left: 78%;
+  }
+  .mas-info p {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  /* videos youtube */
+  .video-container {
+    width: 1%;
+    height: 1%;
+  }
+
+  .video-container {
+    margin-left: 15%;
+
+    margin-top: 20%;
+  }
+
+  /* SIGUENOS */
+
+  .siguenos ul {
+    list-style: none;
+    margin-top: -5%;
+  }
+  .redes1 li {
+    text-decoration: none;
+    float: left;
+    font-size: 18px;
+    margin-left: 3%;
+  }
+  /* escudo napoles */
+  .escudo-napoles {
+    width: 10%;
+    height: 10%;
+    margin-left: 20%;
+    margin-top: 20%;
+  }
+  .comuna-napoles-texto {
+    position: absolute;
+    font-size: 20px;
+    margin-top: -2%;
+    margin-left: -30px;
+  }
+  /* footer */
+  footer {
+    background-color: rgb(63, 61, 61);
+    height: 140px;
+    margin-top: 70px;
+    width: 126%;
+  }
+  .alumno,
+  .profe {
+    margin-left: 30%;
+    font-size: 15px;
+  }
+  .alumno {
+    margin-top: -60px;
+  }
+  .profe {
+    margin-top: -20px;
+  }
+  .materia,
+  .tp {
+    margin-left: 70%;
+    position: absolute;
+    font-size: 15px;
+    color: rgb(9, 207, 207);
+    width: 45%;
+  }
+  .materia {
+    margin-top: -60px;
+  }
+  .tp {
+    margin-top: -20px;
+  }
+
+  footer img {
+    position: relative;
+    margin-top: 60px;
+    width: 15%;
+    height: 45%;
+  }
+}
+
+@media screen and (max-width: 436px) {
+  /* Indice */
+  .indice ul {
+    font-size: 20px;
+    width: 100%;
+  }
+  .indice li {
+    padding: 4px;
+  }
+
+  /* SIGUENOS */
+
+  .siguenos ul {
+    list-style: none;
+    margin-top: -5%;
+  }
+  .redes1 li {
+    text-decoration: none;
+    float: left;
+    font-size: 18px;
+    margin-left: 2%;
+  }
+
+  /* escudo napoles */
+  .escudo-napoles {
+    width: 10%;
+    height: 10%;
+    margin-left: 20%;
+    margin-top: 30%;
+  }
+  .comuna-napoles-texto {
+    position: absolute;
+    font-size: 20px;
+    margin-top: -2%;
+    margin-left: -30px;
+  }
+  /*mas info  */
+
+  .mas-info {
+    margin-top: 180%;
+    position: absolute;
+    margin-left: 78%;
+  }
+  .mas-info p {
+    margin: 0;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 404px) {
+  /* adjetivos de fotos */
+  .text {
+    font-size: 20px;
+  }
+
+  /* Indice */
+  .indice ul {
+    font-size: 18px;
+    width: 120%;
+  }
+  .indice li {
+    padding: 5px;
+  }
+
+  .video-container {
+    margin-left: 10%;
+
+    margin-top: 20%;
+  }
+
+  /* SIGUENOS */
+
+  .siguenos ul {
+    list-style: none;
+    margin-top: -5%;
+  }
+  .redes1 li {
+    text-decoration: none;
+    float: left;
+    font-size: 15px;
+    margin-left: 1%;
+  }
+
+  /* escudo napoles */
+  .escudo-napoles {
+    width: 10%;
+    height: 10%;
+    margin-left: 20%;
+    margin-top: 30%;
+  }
+  .comuna-napoles-texto {
+    position: absolute;
+    font-size: 20px;
+    margin-top: -2%;
+    margin-left: -30px;
+  }
+  /*mas info  */
+
+  .mas-info {
+    margin-top: 200%;
+    position: absolute;
+    margin-left: 78%;
+  }
+  .mas-info p {
+    margin: 0;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 372px) {
+  /* videos youtube */
+
+  .video-container {
+    margin-left: 5%;
+  }
+
+  /* escudo napoles */
+  .escudo-napoles {
+    margin-top: 40%;
+  }
+  /*mas info  */
+
+  .mas-info {
+    margin-top: 215%;
+  }
+}
+
+@media screen and (max-width: 343px) {
+  /* videos youtube */
+
+  .video-container {
+    margin-left: 0;
+  }
+
+  /*mas info  */
+
+  .mas-info {
+    margin-top: 235%;
+    position: absolute;
+    margin-left: 78%;
+  }
+  .mas-info p {
+    margin: 0;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 323px) {
+  .slideshow-container {
+    position: relative;
+    width: 130%;
+  }
+
+  /* SIGUENOS */
+  .redes1 li {
+    font-size: 14px;
+    margin-left: 1%;
+  }
+  footer {
+    background-color: rgb(63, 61, 61);
+    height: 140px;
+    margin-top: 70px;
+    width: 130%;
+  }
+}

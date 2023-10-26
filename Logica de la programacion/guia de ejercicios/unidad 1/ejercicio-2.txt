@@ -1,0 +1,17 @@
+Ejercicio 2.
+
+1. tomar una hoja
+2. apoyarla sobre una mesa
+3. agarrar un lapiz y una escuadra
+4. elegir la medida de los lados del cuadrado
+5. apoyar la escuadra sobre la hoja
+6. sostener la escuadra con la mano inhabil
+7. agarrar el lapiz con la mano habil
+8. trazar una linea de la medida acordada
+9. sin levantar el lapiz, colocar la punta de la escuadra en la punta del lapiz, de forma perpendicular a la linea hecha anteriormente.
+10. trazar una linea de la misma medida
+11. sin levantar el lapiz, colocar la punta de la escuadra en la punta del lapiz, de forma paralela a la primer linea.
+12. trazar una linea de la misma medida
+13. sin levantar el lapiz, colocar la punta de la escuadra en la punta del lapiz, de forma paralela a la segunda linea hecha anteriormente.
+14. trazar una linea de la misma medida.
+15. levantar el lapiz.

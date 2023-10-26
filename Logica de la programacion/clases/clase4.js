@@ -1,0 +1,2 @@
+//cadenas
+let varCajita;

@@ -1,0 +1,199 @@
+/* Titulo */
+
+.itinerario p {
+    margin: 0;
+    position: absolute;
+    font-size: 50px;
+    top: 235%;
+    left: 71%;
+}
+
+
+
+.timeline {
+    position: absolute;
+    max-width: 650px;
+    left: 57%;
+    top: 245%;
+}
+
+
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: rgb(12, 199, 59);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+
+
+.container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 60%;
+}
+
+
+
+.container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: rgb(185, 88, 31);
+    border: 4px solid #FF9F55;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+
+
+.left {
+    left: -10%;
+}
+
+
+
+.right {
+    left: 50%;
+}
+
+
+
+
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid rgb(230, 230, 230);
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent rgb(230, 230, 230);
+}
+
+
+
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid rgb(230, 230, 230);
+    border-width: 10px 10px 10px 0;
+    border-color: transparent rgb(230, 230, 230) transparent transparent;
+}
+
+
+
+.right::after {
+    left: -16px;
+}
+
+
+
+
+.content {
+    padding: 5px;
+    background-color: rgb(230, 230, 230);
+    position: relative;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgb(124, 121, 121);
+}
+
+.content p {
+    margin: 1px;
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+    .itinerario p {
+        top: 290%;
+    }
+    .timeline {
+        top: 300%;
+    }
+
+    .timeline::after {
+        left: 31px;
+    }
+
+    .container {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    .container::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    .left::after,
+    .right::after {
+        left: 15px;
+    }
+
+    .right {
+        left: 0%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .timeline{
+        top: 300%;
+    }
+    .itinerario p {
+        margin: 0;
+        position: absolute;
+        font-size: 50px;
+        top: 275%;
+        left: 71%;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    .timeline {
+        position: relative;
+        left: 30%;
+    }
+    .itinerario p{
+        position: relative;
+        left: 22%;
+    }
+    .left {
+        left: 0%;
+        margin: 0;
+    }
+       
+    .right {
+        left: 0%;
+        margin: 0;
+    }
+    .content {
+        width: 30%;
+        margin: 0;
+    }
+    .timeline.container {
+        width: 480px;
+    }
+}
